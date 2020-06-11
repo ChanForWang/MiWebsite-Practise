@@ -1,0 +1,50 @@
+.top-bar-wrapper{
+    width: 100%;
+    /* 文字在框内居中显示 */
+    line-height: 40px;
+    background-color: #333;
+}
+.service, .topbar li{
+    float: left;
+    
+    
+}
+.shop-cart li, .user-info li{
+    float: right;
+}
+.topbar a{
+    font-size: 12px;
+    color: #b0b0b0; 
+    /* 为了让所有a附近区域的位置都能触发点击效果，而不只是文字 */
+    display: block;
+}
+/* 设置超链接移入样式 */
+.topbar a:hover{
+    color: #fff;
+}
+/* 设置中间分割线 */
+.topbar .line{
+    font-size: 12px;
+    color: #424242;
+    margin: 0 8px;
+    margin-top: -1px;
+}
+
+
+/* 设置购物车的样式 */
+.shop-cart a{
+    width: 120px;
+    background-color: #424242;
+    text-align: center;
+    margin-left: 26px;
+}
+/* 给shopcart设置hover 不是a 因为有个下拉图层，鼠标离开a后，依旧会显示样式 */
+.shop-cart:hover a{
+    background-color: #fff;
+    color: #ff6700;
+    
+}
+.shop-cart i{
+    margin-right: 2px;
+    font-size: 16px ;
+}
